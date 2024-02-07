@@ -50,7 +50,7 @@ cargo run | tee ./output.txt
 
 6. After running the program, you can check the `output.txt` file as well as the console for the requests received.
 
-Note: Since there are multiple threads from the same program, to distinguish requests between seeds, each seed also prints at the start its identifier. Eg. `Peer #5: <response>...`, although if you are only creating one peer then there will only be one peer.
+Note: Since there are multiple threads from the same program, to distinguish requests between seeds, each seed also prints at the start its identifier. Eg. `Peer #5: <response>...`, although for a single peer theres only one thread running for listener.
 
 ## Configuration
 
@@ -63,7 +63,7 @@ Both `gossip_network_peer` and `gossip_network_seed` components rely on configur
 - Ensure that necessary permissions and network access are granted to the program, especially if running on restricted environments.
 
 - Refer to the code documentation and comments for more detailed information about the implementation and usage.
-- If you are getting error about too many open files when running the command. It is recommended to increase the ulimit of your console by using the following command.
+- If you are getting error about `too many open files` when running the command. It is recommended to increase the ulimit of your console by using the following command.(This ulimit worked for 10 peer instances and 11 seed instance.)
 ```bash
 ulimit -n 4096
 ```
