@@ -106,6 +106,8 @@ impl Peer {
                         DEAD_NODE_MESSAGE, dead_node, &self.elapsed_time(), &self.local_addr);
                     if let Err(err) = stream.write_all(response.as_bytes()).await {
                         eprintln!("Failed to send DEAD_NODE request to seed {:?}: {}", seed_node, err);
+                    }else{
+                        println!("Peer #{}: {}", self.peer_no, response);
                     }
                 },
                 Err(err) => {
