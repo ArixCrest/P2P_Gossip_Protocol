@@ -67,3 +67,5 @@ Both `gossip_network_peer` and `gossip_network_seed` components rely on configur
 ```bash
 ulimit -n 4096
 ```
+
+- The code contains the outputs when running the code in each of the `output.txt` file for reference.

@@ -1,121 +1,121 @@
-Peer #1: Selected seeds: ["127.0.0.1:8086", "127.0.0.1:8090", "127.0.0.1:8085", "127.0.0.1:8083", "127.0.0.1:8089", "127.0.0.1:8080"]
-Peer #2: Selected seeds: ["127.0.0.1:8088", "127.0.0.1:8090", "127.0.0.1:8081", "127.0.0.1:8087", "127.0.0.1:8085", "127.0.0.1:8086"]
-Peer #3: Selected seeds: ["127.0.0.1:8082", "127.0.0.1:8081", "127.0.0.1:8090", "127.0.0.1:8089", "127.0.0.1:8083", "127.0.0.1:8084"]
-Peer #4: Selected seeds: ["127.0.0.1:8088", "127.0.0.1:8089", "127.0.0.1:8083", "127.0.0.1:8081", "127.0.0.1:8087", "127.0.0.1:8084"]
-Peer #5: Selected seeds: ["127.0.0.1:8088", "127.0.0.1:8085", "127.0.0.1:8087", "127.0.0.1:8084", "127.0.0.1:8090", "127.0.0.1:8086"]
-Peer #6: Selected seeds: ["127.0.0.1:8084", "127.0.0.1:8082", "127.0.0.1:8087", "127.0.0.1:8080", "127.0.0.1:8090", "127.0.0.1:8088"]
-Peer #7: Selected seeds: ["127.0.0.1:8086", "127.0.0.1:8089", "127.0.0.1:8088", "127.0.0.1:8085", "127.0.0.1:8084", "127.0.0.1:8083"]
-Peer #8: Selected seeds: ["127.0.0.1:8082", "127.0.0.1:8081", "127.0.0.1:8086", "127.0.0.1:8087", "127.0.0.1:8080", "127.0.0.1:8083"]
-Peer #9: Selected seeds: ["127.0.0.1:8081", "127.0.0.1:8084", "127.0.0.1:8083", "127.0.0.1:8086", "127.0.0.1:8088", "127.0.0.1:8087"]
-Peer #10: Selected seeds: ["127.0.0.1:8089", "127.0.0.1:8081", "127.0.0.1:8083", "127.0.0.1:8080", "127.0.0.1:8085", "127.0.0.1:8090"]
-Peer #1: Peer nodes from Seeds: {"127.0.0.1:9098", "127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9095", "127.0.0.1:9099", "127.0.0.1:9097", "127.0.0.1:9092", "127.0.0.1:9096", "127.0.0.1:9091"}
-Peer #1: Selected peer nodes: {"127.0.0.1:9094", "127.0.0.1:9097", "127.0.0.1:9096", "127.0.0.1:9093"}
-Peer #2: Peer nodes from Seeds: {"127.0.0.1:9094", "127.0.0.1:9093", "127.0.0.1:9095", "127.0.0.1:9092", "127.0.0.1:9097", "127.0.0.1:9090", "127.0.0.1:9096", "127.0.0.1:9099", "127.0.0.1:9098"}
-Peer #2: Selected peer nodes: {"127.0.0.1:9090", "127.0.0.1:9099", "127.0.0.1:9092", "127.0.0.1:9095"}
-Peer #3: Peer nodes from Seeds: {"127.0.0.1:9097", "127.0.0.1:9095", "127.0.0.1:9091", "127.0.0.1:9099", "127.0.0.1:9093", "127.0.0.1:9098", "127.0.0.1:9094", "127.0.0.1:9090", "127.0.0.1:9096"}
-Peer #3: Selected peer nodes: {"127.0.0.1:9098", "127.0.0.1:9094", "127.0.0.1:9093", "127.0.0.1:9096"}
-Peer #4: Peer nodes from Seeds: {"127.0.0.1:9096", "127.0.0.1:9091", "127.0.0.1:9095", "127.0.0.1:9099", "127.0.0.1:9090", "127.0.0.1:9097", "127.0.0.1:9092", "127.0.0.1:9098", "127.0.0.1:9094"}
-Peer #4: Selected peer nodes: {"127.0.0.1:9094", "127.0.0.1:9095", "127.0.0.1:9097", "127.0.0.1:9091"}
-Peer #5: Peer nodes from Seeds: {"127.0.0.1:9095", "127.0.0.1:9097", "127.0.0.1:9091", "127.0.0.1:9098", "127.0.0.1:9092", "127.0.0.1:9099", "127.0.0.1:9090", "127.0.0.1:9096", "127.0.0.1:9093"}
-Peer #5: Selected peer nodes: {"127.0.0.1:9096", "127.0.0.1:9097", "127.0.0.1:9093", "127.0.0.1:9092"}
-Peer #6: Peer nodes from Seeds: {"127.0.0.1:9091", "127.0.0.1:9093", "127.0.0.1:9094", "127.0.0.1:9096", "127.0.0.1:9098", "127.0.0.1:9090", "127.0.0.1:9099", "127.0.0.1:9092", "127.0.0.1:9097"}
-Peer #6: Selected peer nodes: {"127.0.0.1:9097", "127.0.0.1:9090", "127.0.0.1:9093", "127.0.0.1:9099"}
-Peer #7: Peer nodes from Seeds: {"127.0.0.1:9091", "127.0.0.1:9092", "127.0.0.1:9093", "127.0.0.1:9090", "127.0.0.1:9097", "127.0.0.1:9095", "127.0.0.1:9098", "127.0.0.1:9099", "127.0.0.1:9094"}
-Peer #7: Selected peer nodes: {"127.0.0.1:9094", "127.0.0.1:9091", "127.0.0.1:9090", "127.0.0.1:9099"}
-Peer #8: Peer nodes from Seeds: {"127.0.0.1:9099", "127.0.0.1:9094", "127.0.0.1:9095", "127.0.0.1:9091", "127.0.0.1:9092", "127.0.0.1:9090", "127.0.0.1:9096", "127.0.0.1:9098", "127.0.0.1:9093"}
-Peer #8: Selected peer nodes: {"127.0.0.1:9091", "127.0.0.1:9094", "127.0.0.1:9092", "127.0.0.1:9095"}
-Peer #9: Peer nodes from Seeds: {"127.0.0.1:9096", "127.0.0.1:9093", "127.0.0.1:9097", "127.0.0.1:9095", "127.0.0.1:9092", "127.0.0.1:9094", "127.0.0.1:9090", "127.0.0.1:9091", "127.0.0.1:9099"}
-Peer #9: Selected peer nodes: {"127.0.0.1:9091", "127.0.0.1:9099", "127.0.0.1:9090", "127.0.0.1:9094"}
-Peer #10: Peer nodes from Seeds: {"127.0.0.1:9097", "127.0.0.1:9094", "127.0.0.1:9093", "127.0.0.1:9098", "127.0.0.1:9096", "127.0.0.1:9091", "127.0.0.1:9095", "127.0.0.1:9090", "127.0.0.1:9092"}
-Peer #10: Selected peer nodes: {"127.0.0.1:9097", "127.0.0.1:9095", "127.0.0.1:9093", "127.0.0.1:9091"}
-Peer 1: Listening on 127.0.0.1:9090
-Peer 8: Listening on 127.0.0.1:9097
+Peer #1: Selected seeds: ["127.0.0.1:8089", "127.0.0.1:8085", "127.0.0.1:8082", "127.0.0.1:8080", "127.0.0.1:8086", "127.0.0.1:8084"]
+Peer #2: Selected seeds: ["127.0.0.1:8084", "127.0.0.1:8081", "127.0.0.1:8085", "127.0.0.1:8089", "127.0.0.1:8090", "127.0.0.1:8086"]
+Peer #3: Selected seeds: ["127.0.0.1:8087", "127.0.0.1:8084", "127.0.0.1:8086", "127.0.0.1:8081", "127.0.0.1:8090", "127.0.0.1:8080"]
+Peer #4: Selected seeds: ["127.0.0.1:8083", "127.0.0.1:8080", "127.0.0.1:8081", "127.0.0.1:8085", "127.0.0.1:8087", "127.0.0.1:8086"]
+Peer #5: Selected seeds: ["127.0.0.1:8086", "127.0.0.1:8085", "127.0.0.1:8088", "127.0.0.1:8089", "127.0.0.1:8087", "127.0.0.1:8080"]
+Peer #6: Selected seeds: ["127.0.0.1:8089", "127.0.0.1:8087", "127.0.0.1:8082", "127.0.0.1:8083", "127.0.0.1:8086", "127.0.0.1:8084"]
+Peer #7: Selected seeds: ["127.0.0.1:8085", "127.0.0.1:8083", "127.0.0.1:8087", "127.0.0.1:8081", "127.0.0.1:8090", "127.0.0.1:8080"]
+Peer #8: Selected seeds: ["127.0.0.1:8090", "127.0.0.1:8087", "127.0.0.1:8088", "127.0.0.1:8081", "127.0.0.1:8080", "127.0.0.1:8083"]
+Peer #9: Selected seeds: ["127.0.0.1:8088", "127.0.0.1:8087", "127.0.0.1:8082", "127.0.0.1:8090", "127.0.0.1:8089", "127.0.0.1:8083"]
+Peer #10: Selected seeds: ["127.0.0.1:8086", "127.0.0.1:8084", "127.0.0.1:8080", "127.0.0.1:8089", "127.0.0.1:8081", "127.0.0.1:8090"]
+Peer #1: Peer nodes from Seeds: {"127.0.0.1:9091", "127.0.0.1:9099", "127.0.0.1:9093", "127.0.0.1:9096", "127.0.0.1:9094", "127.0.0.1:9092", "127.0.0.1:9097", "127.0.0.1:9095", "127.0.0.1:9098"}
+Peer #1: Selected peer nodes: {"127.0.0.1:9092", "127.0.0.1:9095", "127.0.0.1:9098", "127.0.0.1:9093"}
+Peer #2: Peer nodes from Seeds: {"127.0.0.1:9098", "127.0.0.1:9095", "127.0.0.1:9093", "127.0.0.1:9090", "127.0.0.1:9097", "127.0.0.1:9099", "127.0.0.1:9094", "127.0.0.1:9092", "127.0.0.1:9096"}
+Peer #2: Selected peer nodes: {"127.0.0.1:9093", "127.0.0.1:9096", "127.0.0.1:9094", "127.0.0.1:9092"}
+Peer #3: Peer nodes from Seeds: {"127.0.0.1:9098", "127.0.0.1:9096", "127.0.0.1:9093", "127.0.0.1:9091", "127.0.0.1:9097", "127.0.0.1:9095", "127.0.0.1:9094", "127.0.0.1:9090", "127.0.0.1:9099"}
+Peer #3: Selected peer nodes: {"127.0.0.1:9097", "127.0.0.1:9091", "127.0.0.1:9095", "127.0.0.1:9090"}
+Peer #4: Peer nodes from Seeds: {"127.0.0.1:9090", "127.0.0.1:9096", "127.0.0.1:9097", "127.0.0.1:9095", "127.0.0.1:9099", "127.0.0.1:9091", "127.0.0.1:9094", "127.0.0.1:9092", "127.0.0.1:9098"}
+Peer #4: Selected peer nodes: {"127.0.0.1:9097", "127.0.0.1:9090", "127.0.0.1:9096", "127.0.0.1:9099"}
+Peer #5: Peer nodes from Seeds: {"127.0.0.1:9093", "127.0.0.1:9097", "127.0.0.1:9098", "127.0.0.1:9090", "127.0.0.1:9092", "127.0.0.1:9099", "127.0.0.1:9095", "127.0.0.1:9096", "127.0.0.1:9091"}
+Peer #5: Selected peer nodes: {"127.0.0.1:9092", "127.0.0.1:9095", "127.0.0.1:9098", "127.0.0.1:9090"}
+Peer #6: Peer nodes from Seeds: {"127.0.0.1:9099", "127.0.0.1:9091", "127.0.0.1:9098", "127.0.0.1:9097", "127.0.0.1:9090", "127.0.0.1:9092", "127.0.0.1:9094", "127.0.0.1:9096", "127.0.0.1:9093"}
+Peer #6: Selected peer nodes: {"127.0.0.1:9098", "127.0.0.1:9090", "127.0.0.1:9096", "127.0.0.1:9097"}
+Peer #7: Peer nodes from Seeds: {"127.0.0.1:9094", "127.0.0.1:9099", "127.0.0.1:9097", "127.0.0.1:9093", "127.0.0.1:9090", "127.0.0.1:9098", "127.0.0.1:9092", "127.0.0.1:9095", "127.0.0.1:9091"}
+Peer #7: Selected peer nodes: {"127.0.0.1:9094", "127.0.0.1:9098", "127.0.0.1:9090", "127.0.0.1:9091"}
+Peer #8: Peer nodes from Seeds: {"127.0.0.1:9093", "127.0.0.1:9099", "127.0.0.1:9095", "127.0.0.1:9098", "127.0.0.1:9092", "127.0.0.1:9096", "127.0.0.1:9094", "127.0.0.1:9090", "127.0.0.1:9091"}
+Peer #8: Selected peer nodes: {"127.0.0.1:9096", "127.0.0.1:9092", "127.0.0.1:9094", "127.0.0.1:9095"}
+Peer #9: Peer nodes from Seeds: {"127.0.0.1:9090", "127.0.0.1:9099", "127.0.0.1:9094", "127.0.0.1:9097", "127.0.0.1:9096", "127.0.0.1:9092", "127.0.0.1:9093", "127.0.0.1:9091", "127.0.0.1:9095"}
+Peer #9: Selected peer nodes: {"127.0.0.1:9099", "127.0.0.1:9097", "127.0.0.1:9091", "127.0.0.1:9094"}
+Peer #10: Peer nodes from Seeds: {"127.0.0.1:9094", "127.0.0.1:9098", "127.0.0.1:9091", "127.0.0.1:9093", "127.0.0.1:9095", "127.0.0.1:9090", "127.0.0.1:9092", "127.0.0.1:9096", "127.0.0.1:9097"}
+Peer #10: Selected peer nodes: {"127.0.0.1:9091", "127.0.0.1:9090", "127.0.0.1:9097", "127.0.0.1:9092"}
 Peer 6: Listening on 127.0.0.1:9095
-Peer 7: Listening on 127.0.0.1:9096
-Peer 3: Listening on 127.0.0.1:9092
 Peer 2: Listening on 127.0.0.1:9091
-Peer 5: Listening on 127.0.0.1:9094
+Peer 1: Listening on 127.0.0.1:9090
 Peer 9: Listening on 127.0.0.1:9098
-Peer 4: Listening on 127.0.0.1:9093
+Peer 8: Listening on 127.0.0.1:9097
+Peer 5: Listening on 127.0.0.1:9094
 Peer 10: Idle Listening on 127.0.0.1:9099
-Peer #9: Received new message: Hello, this is peer #3! from 127.0.0.1:9092 at timestamp: 00:02:034
-Peer #6: Received new message: Hello, this is peer #4! from 127.0.0.1:9093 at timestamp: 00:02:033
-Peer #2: Received new message: Hello, this is peer #8! from 127.0.0.1:9097 at timestamp: 00:02:025
-Peer #4: Received new message: Hello, this is peer #6! from 127.0.0.1:9095 at timestamp: 00:02:028
-Peer #1: Received new message: Hello, this is peer #6! from 127.0.0.1:9095 at timestamp: 00:02:028
-Peer #7: Received new message: Hello, this is peer #5! from 127.0.0.1:9094 at timestamp: 00:02:031
-Peer #3: Received new message: Hello, this is peer #8! from 127.0.0.1:9097 at timestamp: 00:02:025
-Peer #8: Received new message: Hello, this is peer #6! from 127.0.0.1:9095 at timestamp: 00:02:028
-Peer #9: Received new message: Hello, this is peer #8! from 127.0.0.1:9092 at timestamp: 00:02:040
-Peer #6: Received new message: Hello, this is peer #10! from 127.0.0.1:9099 at timestamp: 00:02:022
-Peer #5: Received new message: Hello, this is peer #4! from 127.0.0.1:9093 at timestamp: 00:02:033
-Peer #4: Received new message: Hello, this is peer #10! from 127.0.0.1:9099 at timestamp: 00:02:022
-Peer #7: Received new message: Hello, this is peer #3! from 127.0.0.1:9092 at timestamp: 00:02:034
-Peer #3: Received new message: Hello, this is peer #2! from 127.0.0.1:9091 at timestamp: 00:02:036
-Peer #8: Received new message: Hello, this is peer #10! from 127.0.0.1:9099 at timestamp: 00:02:022
-Peer #2: Received new message: Hello, this is peer #7! from 127.0.0.1:9096 at timestamp: 00:02:027
-Peer #1: Received new message: Hello, this is peer #2! from 127.0.0.1:9091 at timestamp: 00:02:036
-Peer #9: Received new message: Hello, this is peer #2! from 127.0.0.1:9092 at timestamp: 00:02:043
-Peer #6: Received new message: Hello, this is peer #8! from 127.0.0.1:9097 at timestamp: 00:02:025
-Peer #5: Received new message: Hello, this is peer #3! from 127.0.0.1:9092 at timestamp: 00:02:034
-Peer #4: Received new message: Hello, this is peer #3! from 127.0.0.1:9092 at timestamp: 00:02:034
-Peer #7: Received new message: Hello, this is peer #1! from 127.0.0.1:9090 at timestamp: 00:02:038
-Peer #8: Received new message: Hello, this is peer #4! from 127.0.0.1:9093 at timestamp: 00:02:033
-Peer #3: Received new message: Hello, this is peer #5! from 127.0.0.1:9094 at timestamp: 00:02:031
-Peer #2: Received new message: Hello, this is peer #9! from 127.0.0.1:9098 at timestamp: 00:02:024
-Peer #1: Received new message: Hello, this is peer #7! from 127.0.0.1:9096 at timestamp: 00:02:027
-Peer #6: Received new message: Hello, this is peer #2! from 127.0.0.1:9091 at timestamp: 00:02:036
-Peer #9: Received new message: Hello, this is peer #5! from 127.0.0.1:9092 at timestamp: 00:02:046
-Peer #5: Received new message: Hello, this is peer #7! from 127.0.0.1:9096 at timestamp: 00:02:027
-Peer #4: Received new message: Hello, this is peer #5! from 127.0.0.1:9094 at timestamp: 00:02:031
-Peer #7: Received new message: Hello, this is peer #6! from 127.0.0.1:9090 at timestamp: 00:02:043
-Peer #8: Received new message: Hello, this is peer #5! from 127.0.0.1:9094 at timestamp: 00:02:031
-Peer #2: Received new message: Hello, this is peer #10! from 127.0.0.1:9099 at timestamp: 00:02:022
-Peer #3: Received new message: Hello, this is peer #6! from 127.0.0.1:9097 at timestamp: 00:02:031
-Peer #6: Received new message: Hello, this is peer #7! from 127.0.0.1:9091 at timestamp: 00:02:045
-Peer #1: Received new message: Hello, this is peer #9! from 127.0.0.1:9098 at timestamp: 00:02:024
-Peer #9: Received new message: Hello, this is peer #6! from 127.0.0.1:9092 at timestamp: 00:02:050
-Peer #5: Received new message: Hello, this is peer #8! from 127.0.0.1:9097 at timestamp: 00:02:025
-Peer #4: Received new message: Hello, this is peer #1! from 127.0.0.1:9090 at timestamp: 00:02:038
-Peer #7: Received new message: Hello, this is peer #4! from 127.0.0.1:9094 at timestamp: 00:02:038
-Peer #8: Received new message: Hello, this is peer #1! from 127.0.0.1:9090 at timestamp: 00:02:038
-Peer #2: Received new message: Hello, this is peer #4! from 127.0.0.1:9093 at timestamp: 00:02:033
-Peer #3: Received new message: Hello, this is peer #4! from 127.0.0.1:9094 at timestamp: 00:02:038
-Peer #6: Received new message: Hello, this is peer #3! from 127.0.0.1:9093 at timestamp: 00:02:044
-Peer #1: Received new message: Hello, this is peer #4! from 127.0.0.1:9095 at timestamp: 00:02:033
-Peer #9: Received new message: Hello, this is peer #4! from 127.0.0.1:9092 at timestamp: 00:02:052
-Peer #5: Received new message: Hello, this is peer #1! from 127.0.0.1:9090 at timestamp: 00:02:038
-Peer #4: Received new message: Hello, this is peer #8! from 127.0.0.1:9092 at timestamp: 00:02:040
-Peer #7: Received new message: Hello, this is peer #8! from 127.0.0.1:9092 at timestamp: 00:02:040
-Peer #8: Received new message: Hello, this is peer #2! from 127.0.0.1:9090 at timestamp: 00:02:047
-Peer #2: Received new message: Hello, this is peer #3! from 127.0.0.1:9098 at timestamp: 00:02:027
-Peer #3: Received new message: Hello, this is peer #10! from 127.0.0.1:9097 at timestamp: 00:02:034
-Peer #6: Received new message: Hello, this is peer #9! from 127.0.0.1:9091 at timestamp: 00:02:048
-Peer #1: Received new message: Hello, this is peer #8! from 127.0.0.1:9091 at timestamp: 00:02:041
-Peer #9: Received new message: Hello, this is peer #10! from 127.0.0.1:9092 at timestamp: 00:02:056
-Peer #5: Received new message: Hello, this is peer #9! from 127.0.0.1:9098 at timestamp: 00:02:024
-Peer #4: Received new message: Hello, this is peer #2! from 127.0.0.1:9092 at timestamp: 00:02:043
-Peer #7: Received new message: Hello, this is peer #2! from 127.0.0.1:9092 at timestamp: 00:02:043
-Peer #8: Received new message: Hello, this is peer #3! from 127.0.0.1:9094 at timestamp: 00:02:042
-Peer #2: Received new message: Hello, this is peer #6! from 127.0.0.1:9097 at timestamp: 00:02:031
-Peer #3: Received new message: Hello, this is peer #7! from 127.0.0.1:9091 at timestamp: 00:02:045
-Peer #6: Received new message: Hello, this is peer #5! from 127.0.0.1:9093 at timestamp: 00:02:047
-Peer #1: Received new message: Hello, this is peer #3! from 127.0.0.1:9098 at timestamp: 00:02:027
-Peer #9: Received new message: Hello, this is peer #7! from 127.0.0.1:9092 at timestamp: 00:02:059
-Peer #5: Received new message: Hello, this is peer #6! from 127.0.0.1:9093 at timestamp: 00:02:038
-Peer #7: Received new message: Hello, this is peer #9! from 127.0.0.1:9090 at timestamp: 00:02:055
-Peer #4: Received new message: Hello, this is peer #7! from 127.0.0.1:9090 at timestamp: 00:02:051
-Peer #8: Received new message: Hello, this is peer #7! from 127.0.0.1:9090 at timestamp: 00:02:051
-Peer #2: Received new message: Hello, this is peer #5! from 127.0.0.1:9096 at timestamp: 00:02:032
-Peer #3: Received new message: Hello, this is peer #9! from 127.0.0.1:9091 at timestamp: 00:02:048
-Peer #6: Received new message: Hello, this is peer #1! from 127.0.0.1:9093 at timestamp: 00:02:050
-Peer #1: Received new message: Hello, this is peer #5! from 127.0.0.1:9096 at timestamp: 00:02:032
-Peer #7: Received new message: Hello, this is peer #10! from 127.0.0.1:9092 at timestamp: 00:02:056
-Peer #4: Received new message: Hello, this is peer #9! from 127.0.0.1:9090 at timestamp: 00:02:055
-Peer #5: Received new message: Hello, this is peer #10! from 127.0.0.1:9093 at timestamp: 00:02:041
-Peer #8: Received new message: Hello, this is peer #9! from 127.0.0.1:9090 at timestamp: 00:02:055
-Peer #3: Received new message: Hello, this is peer #1! from 127.0.0.1:9097 at timestamp: 00:02:043
-Peer #2: Received new message: Hello, this is peer #1! from 127.0.0.1:9096 at timestamp: 00:02:038
-Peer #1: Received new message: Hello, this is peer #10! from 127.0.0.1:9095 at timestamp: 00:02:036
-Peer #9: Received new message: Hello, this is peer #1! from 127.0.0.1:9092 at timestamp: 00:02:063
-Peer #5: Received new message: Hello, this is peer #2! from 127.0.0.1:9092 at timestamp: 00:02:043
+Peer 3: Listening on 127.0.0.1:9092
+Peer 7: Listening on 127.0.0.1:9096
+Peer 4: Listening on 127.0.0.1:9093
+Peer #4: Received new message: Hello, this is peer #2! from 127.0.0.1:9091 at timestamp: 00:02:037
+Peer #2: Received new message: Hello, this is peer #10! from 127.0.0.1:9099 at timestamp: 00:02:021
+Peer #9: Received new message: Hello, this is peer #1! from 127.0.0.1:9090 at timestamp: 00:02:040
+Peer #6: Received new message: Hello, this is peer #1! from 127.0.0.1:9090 at timestamp: 00:02:040
+Peer #3: Received new message: Hello, this is peer #1! from 127.0.0.1:9090 at timestamp: 00:02:040
+Peer #8: Received new message: Hello, this is peer #4! from 127.0.0.1:9093 at timestamp: 00:02:032
+Peer #4: Received new message: Hello, this is peer #1! from 127.0.0.1:9090 at timestamp: 00:02:040
+Peer #1: Received new message: Hello, this is peer #4! from 127.0.0.1:9093 at timestamp: 00:02:032
+Peer #2: Received new message: Hello, this is peer #9! from 127.0.0.1:9098 at timestamp: 00:02:023
+Peer #9: Received new message: Hello, this is peer #6! from 127.0.0.1:9095 at timestamp: 00:02:029
+Peer #7: Received new message: Hello, this is peer #8! from 127.0.0.1:9097 at timestamp: 00:02:024
+Peer #6: Received new message: Hello, this is peer #8! from 127.0.0.1:9097 at timestamp: 00:02:024
+Peer #3: Received new message: Hello, this is peer #8! from 127.0.0.1:9097 at timestamp: 00:02:024
+Peer #4: Received new message: Hello, this is peer #10! from 127.0.0.1:9091 at timestamp: 00:02:041
+Peer #5: Received new message: Hello, this is peer #2! from 127.0.0.1:9091 at timestamp: 00:02:037
+Peer #1: Received new message: Hello, this is peer #10! from 127.0.0.1:9099 at timestamp: 00:02:021
+Peer #8: Received new message: Hello, this is peer #10! from 127.0.0.1:9099 at timestamp: 00:02:021
+Peer #2: Received new message: Hello, this is peer #3! from 127.0.0.1:9092 at timestamp: 00:02:036
+Peer #9: Received new message: Hello, this is peer #7! from 127.0.0.1:9096 at timestamp: 00:02:028
+Peer #7: Received new message: Hello, this is peer #4! from 127.0.0.1:9093 at timestamp: 00:02:032
+Peer #6: Received new message: Hello, this is peer #3! from 127.0.0.1:9092 at timestamp: 00:02:036
+Peer #3: Received new message: Hello, this is peer #2! from 127.0.0.1:9091 at timestamp: 00:02:037
+Peer #4: Received new message: Hello, this is peer #9! from 127.0.0.1:9091 at timestamp: 00:02:043
+Peer #5: Received new message: Hello, this is peer #8! from 127.0.0.1:9097 at timestamp: 00:02:024
+Peer #8: Received new message: Hello, this is peer #9! from 127.0.0.1:9098 at timestamp: 00:02:023
+Peer #2: Received new message: Hello, this is peer #7! from 127.0.0.1:9096 at timestamp: 00:02:028
+Peer #9: Received new message: Hello, this is peer #5! from 127.0.0.1:9094 at timestamp: 00:02:032
+Peer #1: Received new message: Hello, this is peer #6! from 127.0.0.1:9095 at timestamp: 00:02:029
+Peer #7: Received new message: Hello, this is peer #2! from 127.0.0.1:9091 at timestamp: 00:02:037
+Peer #6: Received new message: Hello, this is peer #5! from 127.0.0.1:9094 at timestamp: 00:02:032
+Peer #3: Received new message: Hello, this is peer #10! from 127.0.0.1:9099 at timestamp: 00:02:021
+Peer #4: Received new message: Hello, this is peer #3! from 127.0.0.1:9091 at timestamp: 00:02:046
+Peer #8: Received new message: Hello, this is peer #3! from 127.0.0.1:9092 at timestamp: 00:02:036
+Peer #5: Received new message: Hello, this is peer #9! from 127.0.0.1:9098 at timestamp: 00:02:023
+Peer #7: Received new message: Hello, this is peer #6! from 127.0.0.1:9095 at timestamp: 00:02:029
+Peer #2: Received new message: Hello, this is peer #1! from 127.0.0.1:9098 at timestamp: 00:02:026
+Peer #9: Received new message: Hello, this is peer #8! from 127.0.0.1:9095 at timestamp: 00:02:035
+Peer #6: Received new message: Hello, this is peer #4! from 127.0.0.1:9090 at timestamp: 00:02:045
+Peer #3: Received new message: Hello, this is peer #5! from 127.0.0.1:9094 at timestamp: 00:02:032
+Peer #4: Received new message: Hello, this is peer #7! from 127.0.0.1:9091 at timestamp: 00:02:049
+Peer #1: Received new message: Hello, this is peer #3! from 127.0.0.1:9092 at timestamp: 00:02:036
+Peer #8: Received new message: Hello, this is peer #6! from 127.0.0.1:9095 at timestamp: 00:02:029
+Peer #5: Received new message: Hello, this is peer #7! from 127.0.0.1:9096 at timestamp: 00:02:028
+Peer #7: Received new message: Hello, this is peer #10! from 127.0.0.1:9091 at timestamp: 00:02:041
+Peer #2: Received new message: Hello, this is peer #6! from 127.0.0.1:9098 at timestamp: 00:02:028
+Peer #9: Received new message: Hello, this is peer #4! from 127.0.0.1:9090 at timestamp: 00:02:045
+Peer #6: Received new message: Hello, this is peer #2! from 127.0.0.1:9094 at timestamp: 00:02:038
+Peer #3: Received new message: Hello, this is peer #4! from 127.0.0.1:9090 at timestamp: 00:02:045
+Peer #4: Received new message: Hello, this is peer #6! from 127.0.0.1:9090 at timestamp: 00:02:052
+Peer #1: Received new message: Hello, this is peer #2! from 127.0.0.1:9093 at timestamp: 00:02:035
+Peer #8: Received new message: Hello, this is peer #2! from 127.0.0.1:9093 at timestamp: 00:02:035
+Peer #5: Received new message: Hello, this is peer #10! from 127.0.0.1:9091 at timestamp: 00:02:041
+Peer #7: Received new message: Hello, this is peer #1! from 127.0.0.1:9095 at timestamp: 00:02:032
+Peer #2: Received new message: Hello, this is peer #8! from 127.0.0.1:9092 at timestamp: 00:02:042
+Peer #9: Received new message: Hello, this is peer #2! from 127.0.0.1:9094 at timestamp: 00:02:038
+Peer #6: Received new message: Hello, this is peer #10! from 127.0.0.1:9090 at timestamp: 00:02:048
+Peer #3: Received new message: Hello, this is peer #9! from 127.0.0.1:9091 at timestamp: 00:02:043
+Peer #4: Received new message: Hello, this is peer #8! from 127.0.0.1:9091 at timestamp: 00:02:059
+Peer #1: Received new message: Hello, this is peer #7! from 127.0.0.1:9096 at timestamp: 00:02:028
+Peer #5: Received new message: Hello, this is peer #1! from 127.0.0.1:9098 at timestamp: 00:02:026
+Peer #8: Received new message: Hello, this is peer #1! from 127.0.0.1:9098 at timestamp: 00:02:026
+Peer #7: Received new message: Hello, this is peer #9! from 127.0.0.1:9091 at timestamp: 00:02:043
+Peer #9: Received new message: Hello, this is peer #3! from 127.0.0.1:9095 at timestamp: 00:02:038
+Peer #2: Received new message: Hello, this is peer #4! from 127.0.0.1:9096 at timestamp: 00:02:036
+Peer #6: Received new message: Hello, this is peer #9! from 127.0.0.1:9097 at timestamp: 00:02:036
+Peer #3: Received new message: Hello, this is peer #6! from 127.0.0.1:9090 at timestamp: 00:02:052
+Peer #1: Received new message: Hello, this is peer #5! from 127.0.0.1:9094 at timestamp: 00:02:032
+Peer #5: Received new message: Hello, this is peer #4! from 127.0.0.1:9097 at timestamp: 00:02:029
+Peer #8: Received new message: Hello, this is peer #7! from 127.0.0.1:9098 at timestamp: 00:02:032
+Peer #7: Received new message: Hello, this is peer #3! from 127.0.0.1:9091 at timestamp: 00:02:046
+Peer #2: Received new message: Hello, this is peer #5! from 127.0.0.1:9098 at timestamp: 00:02:035
+Peer #9: Received new message: Hello, this is peer #10! from 127.0.0.1:9090 at timestamp: 00:02:048
+Peer #6: Received new message: Hello, this is peer #7! from 127.0.0.1:9094 at timestamp: 00:02:048
+Peer #4: Received new message: Hello, this is peer #5! from 127.0.0.1:9091 at timestamp: 00:02:065
+Peer #3: Received new message: Hello, this is peer #7! from 127.0.0.1:9091 at timestamp: 00:02:049
+Peer #1: Received new message: Hello, this is peer #8! from 127.0.0.1:9095 at timestamp: 00:02:035
+Peer #5: Received new message: Hello, this is peer #6! from 127.0.0.1:9098 at timestamp: 00:02:028
+Peer #8: Received new message: Hello, this is peer #5! from 127.0.0.1:9098 at timestamp: 00:02:035
+Peer #7: Received new message: Hello, this is peer #5! from 127.0.0.1:9095 at timestamp: 00:02:041
+Peer #1: Received new message: Hello, this is peer #9! from 127.0.0.1:9093 at timestamp: 00:02:043
+Peer #5: Received new message: Hello, this is peer #3! from 127.0.0.1:9091 at timestamp: 00:02:046
