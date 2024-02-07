@@ -1,3 +1,5 @@
+/// Contains the Struct and functions for Peer Node
+
 // importing necessary packages
 use std::collections::HashSet;
 use tokio::io::{AsyncReadExt, AsyncWriteExt};

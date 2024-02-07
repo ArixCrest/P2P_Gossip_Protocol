@@ -1,3 +1,6 @@
+/// Contains the Struct and functions for Seed Node
+
+// Including the packages.
 use std::collections::HashSet;
 use std::net::SocketAddr;
 use std::sync::Arc;
@@ -5,6 +8,7 @@ use tokio::sync::Mutex;
 use tokio::io::{AsyncReadExt, AsyncWriteExt};
 use tokio::net::{TcpListener, TcpStream};
 
+// constants for specific requests.
 const JOIN_REQUEST_MESSAGE: &str = "JOIN_REQUEST";
 const GET_CONNECTED_NODES_REQUEST: &str = "GET_CONNECTED_NODES_REQUEST";
 const DEAD_NODE_MESSAGE: &str = "DEAD_NODE";

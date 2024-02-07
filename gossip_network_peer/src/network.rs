@@ -1,3 +1,5 @@
+/// Contains the networking logic for Peer node
+
 // Importing necessary packages
 use std::collections::{HashSet, HashMap};
 use tokio::io::{AsyncReadExt, AsyncWriteExt};

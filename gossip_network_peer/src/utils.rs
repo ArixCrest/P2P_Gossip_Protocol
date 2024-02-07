@@ -1,3 +1,5 @@
+/// Contains the utils
+
 // importing necessary packages
 use std::{collections::HashSet, error::Error};
 use rand::Rng;
