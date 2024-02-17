@@ -177,8 +177,8 @@ pub async fn spawn_listener(peer: Arc<Mutex<Peer>>) {
                 if peer_guard.message_list.contains(gossip_message) {
                     // println!("Duplicate Message\n");
                 }else {
-                    println!("Peer #{}: Received new message: {} from {} at timestamp: {}",
-                        peer_guard.peer_no,gossip_message, split_message[1], split_message[0]);
+                    println!("Peer@{}: Received new message: {} from {} at timestamp: {}",
+                        peer_guard.local_addr,gossip_message, split_message[1], split_message[0]);
                     peer_guard.message_list.insert(gossip_message.to_string());
                     let timestamp = peer_guard.elapsed_time();
                     let formatted_msg = format!("{}|{}|{}", timestamp, peer_guard.local_addr, gossip_message);

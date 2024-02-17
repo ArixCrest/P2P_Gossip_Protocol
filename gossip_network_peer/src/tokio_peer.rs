@@ -91,7 +91,7 @@ impl Peer {
                 }
 
             } else {
-                eprintln!("Peer #{}: Failed to connect to {:?}", self.peer_no, seed_node);
+                eprintln!("Peer@{}: Failed to connect to {:?}", self.local_addr, seed_node);
             }
         }
     }
@@ -107,7 +107,7 @@ impl Peer {
                     if let Err(err) = stream.write_all(response.as_bytes()).await {
                         eprintln!("Failed to send DEAD_NODE request to seed {:?}: {}", seed_node, err);
                     }else{
-                        println!("Peer #{}: {}", self.peer_no, response);
+                        println!("Peer@{}: {}", self.local_addr, response);
                     }
                 },
                 Err(err) => {

@@ -44,7 +44,7 @@ async fn main() {
     for local_address in local_addresses {
 
         let selected_seeds: Vec<String> = select_k_nodes(seed_nodes.clone(), tot_seeds/2+1);
-        println!("Peer #{}: Selected seeds: {:?}", itr, selected_seeds);
+        println!("Peer@{}: Selected seeds: {:?}", local_address, selected_seeds);
         let peer = Arc::new(Mutex::new(Peer::new(itr, local_address, selected_seeds)));
 
         // Join seed nodes using a lock guard.
@@ -62,16 +62,16 @@ async fn main() {
         let mut peer_guard = peer.lock().await;
         {
             peer_guard.query_connected_nodes().await;
-            println!("Peer #{}: Peer nodes from Seeds: {:?}",
-                peer_guard.peer_no, peer_guard.connected_nodes);
+            println!("Peer@{}: Peer nodes from Seeds: {:?}",
+                peer_guard.local_addr, peer_guard.connected_nodes);
             // println!("Connected nodes of {}: {:?}", peer_guard.local_addr, peer_guard.connected_nodes);   
             if peer_guard.connected_nodes.len() > tot_distinct_nodes {
                 let selected_nodes: Vec<_> = peer_guard.connected_nodes.iter().cloned().collect();
                 let selected_nodes: Vec<_> = select_k_nodes(selected_nodes, tot_distinct_nodes);
                 peer_guard.connected_nodes = selected_nodes.into_iter().collect();
             }
-            println!("Peer #{}: Selected peer nodes: {:?}",
-                peer_guard.peer_no, peer_guard.connected_nodes);   
+            println!("Peer@{}: Selected peer nodes: {:?}",
+                peer_guard.local_addr, peer_guard.connected_nodes);   
         }
     }
 
@@ -121,7 +121,7 @@ async fn main() {
 
                 // wait to obtain lock on the shared peer reference.
                 let mut peer_guard = peer_clone.lock().await;
-                let gossip = format!("Hello, this is peer #{}!", peer_guard.peer_no);
+                let gossip = format!("Hello, this is peer @{}!", peer_guard.local_addr);
                 // Add your own message to the message list.
                 peer_guard.message_list.insert(gossip.to_string());
                 let message = format!("{}|{}|{}", peer_guard.elapsed_time(), peer_guard.local_addr, gossip);
