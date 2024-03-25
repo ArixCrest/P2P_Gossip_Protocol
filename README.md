@@ -50,7 +50,7 @@ cargo run | tee ./output.txt
 
 6. After running the program, you can check the `output.txt` file as well as the console for the requests received.
 
-Note: Since there are multiple threads from the same program, to distinguish requests between seeds, each seed also prints at the start its identifier. Eg. `Peer #5: <response>...`, although for a single peer theres only one thread running for listener.
+Note: Since there are multiple threads from the same program, to distinguish requests between seeds, each seed also prints at the start its identifier. Eg. `Peer@<ip>: <response>...`, although for a single peer theres only one thread running for listener.
 
 ## Configuration
 
