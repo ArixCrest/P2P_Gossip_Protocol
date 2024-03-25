@@ -69,3 +69,8 @@ ulimit -n 4096
 ```
 
 - The code contains the outputs when running the code in each of the `output.txt` file for reference.
+
+## To-DO
+- Integrate use of Socket Address funtionalities when someone sends the message instead of identifying from the message. This was ignored since it was worked mainly with same IP and different ports.
+- Integrate a verificaiton mechanism for each seed and peer to check if the message received is from a valid seed or peer.
+
